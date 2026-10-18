@@ -1,0 +1,26 @@
+# API keys and environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Test outputs
+pytest_temp/
+.coverage
+htmlcov/
+
+# DevPilot artifacts
+devpilot_proposals/
+devpilot_backups/
+*.bak
+
+# IDE
+.vscode/
+.idea/
